@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ABA14972A973E44000E90C7 /* live_activities_oq_otApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA14962A973E44000E90C7 /* live_activities_oq_otApp.swift */; };
+		4ABA14972A973E44000E90C7 /* LiveActivitiesMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA14962A973E44000E90C7 /* LiveActivitiesMain.swift */; };
 		4ABA14992A973E44000E90C7 /* LiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA14982A973E44000E90C7 /* LiveActivities.swift */; };
 		4ABA149B2A973E47000E90C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA149A2A973E47000E90C7 /* Assets.xcassets */; };
 		4ABA149E2A973E47000E90C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA149D2A973E47000E90C7 /* Preview Assets.xcassets */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4ABA14932A973E44000E90C7 /* live-activities-oq-ot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "live-activities-oq-ot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ABA14962A973E44000E90C7 /* live_activities_oq_otApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = live_activities_oq_otApp.swift; sourceTree = "<group>"; };
+		4ABA14962A973E44000E90C7 /* LiveActivitiesMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivitiesMain.swift; sourceTree = "<group>"; };
 		4ABA14982A973E44000E90C7 /* LiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivities.swift; sourceTree = "<group>"; };
 		4ABA149A2A973E47000E90C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ABA149D2A973E47000E90C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -80,6 +80,7 @@
 		4ABA148A2A973E44000E90C7 = {
 			isa = PBXGroup;
 			children = (
+				4ABA14C62A9F5E67000E90C7 /* Live Activities  */,
 				4ABA14952A973E44000E90C7 /* live-activities-oq-ot */,
 				4ABA14A62A973E48000E90C7 /* live-activities-oq-otTests */,
 				4ABA14B02A973E48000E90C7 /* live-activities-oq-otUITests */,
@@ -100,9 +101,6 @@
 		4ABA14952A973E44000E90C7 /* live-activities-oq-ot */ = {
 			isa = PBXGroup;
 			children = (
-				4ABA14962A973E44000E90C7 /* live_activities_oq_otApp.swift */,
-				4ABA14982A973E44000E90C7 /* LiveActivities.swift */,
-				4ABA14C02A973F11000E90C7 /* LiveActivitiesOrder.swift */,
 				4ABA14C22A9744E7000E90C7 /* ActivityManager.swift */,
 				4ABA14C42A97453A000E90C7 /* ActivityStateManager.swift */,
 				4ABA149A2A973E47000E90C7 /* Assets.xcassets */,
@@ -134,6 +132,16 @@
 				4ABA14B32A973E48000E90C7 /* live_activities_oq_otUITestsLaunchTests.swift */,
 			);
 			path = "live-activities-oq-otUITests";
+			sourceTree = "<group>";
+		};
+		4ABA14C62A9F5E67000E90C7 /* Live Activities  */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA14962A973E44000E90C7 /* LiveActivitiesMain.swift */,
+				4ABA14982A973E44000E90C7 /* LiveActivities.swift */,
+				4ABA14C02A973F11000E90C7 /* LiveActivitiesOrder.swift */,
+			);
+			path = "Live Activities ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +278,7 @@
 				4ABA14C12A973F11000E90C7 /* LiveActivitiesOrder.swift in Sources */,
 				4ABA14992A973E44000E90C7 /* LiveActivities.swift in Sources */,
 				4ABA14C52A97453A000E90C7 /* ActivityStateManager.swift in Sources */,
-				4ABA14972A973E44000E90C7 /* live_activities_oq_otApp.swift in Sources */,
+				4ABA14972A973E44000E90C7 /* LiveActivitiesMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,14 +21,14 @@ struct LiveActivitiesOrder: Widget {
         dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.leading) {
-                    Text("PizzaDel")
+                    Text("OQ-OT")
                         .foregroundColor(Color.yellow)
                         .font(.system(size: 17))
                         .bold()
                 }
                 
                 DynamicIslandExpandedRegion(.center){
-                    Text("Your Order: " + context.attributes.noOfPizza.formatted() + " Pizza(s)")
+                    Text("Your Order: " + context.attributes.noOfPizza.formatted() + " OQ-OT")
                         .foregroundColor(Color.white)
                 }
                 

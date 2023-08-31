@@ -20,11 +20,11 @@ struct LiveActivities: View {
             VStack{
                 HStack{
                     VStack(alignment: .leading, spacing: 5){
-                        Text("PizzaDel")
-                            .foregroundColor(Color.yellow)
+                        Text("OQ-OT")
+                        .foregroundColor(Color.yellow)
                             .font(.system(size: 20))
                             .bold()
-                        Text("Your Order: " + context.attributes.noOfPizza.formatted() + " Pizza(s)")
+                        Text("Your Order: " + context.attributes.noOfPizza.formatted() + " OQ-OT(s)")
                             .foregroundColor(Color.gray)
                             .font(.system(size: 13))
                         Text("-" + context.state.pizzaOrderState.rawValue.components(separatedBy: " | ")[1])

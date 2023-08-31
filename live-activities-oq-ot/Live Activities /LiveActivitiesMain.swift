@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct live_activities_oq_otApp: App {
+struct LiveActivitiesMain: App {
     var body: some Scene {
         WindowGroup {
             LiveActivities()
