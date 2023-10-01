@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A6CC7AC2AA06F7800730BCF /* AccentColor.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccentColor.geojson; sourceTree = "<group>"; };
+		4A6CC7AD2AA06FC600730BCF /* AppIcon.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppIcon.geojson; sourceTree = "<group>"; };
+		4A6CC7AE2AA0703100730BCF /* WidegetBackground.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = WidegetBackground.geojson; sourceTree = "<group>"; };
 		4ABA14932A973E44000E90C7 /* live-activities-oq-ot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "live-activities-oq-ot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABA14962A973E44000E90C7 /* LiveActivitiesMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivitiesMain.swift; sourceTree = "<group>"; };
 		4ABA14982A973E44000E90C7 /* LiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivities.swift; sourceTree = "<group>"; };
@@ -77,9 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A6CC7AF2AA070A300730BCF /* Assests.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				4A6CC7AE2AA0703100730BCF /* WidegetBackground.geojson */,
+				4A6CC7AD2AA06FC600730BCF /* AppIcon.geojson */,
+				4A6CC7AC2AA06F7800730BCF /* AccentColor.geojson */,
+			);
+			path = Assests.xcassets;
+			sourceTree = "<group>";
+		};
 		4ABA148A2A973E44000E90C7 = {
 			isa = PBXGroup;
 			children = (
+				4A6CC7AF2AA070A300730BCF /* Assests.xcassets */,
 				4ABA14C62A9F5E67000E90C7 /* Live Activities  */,
 				4ABA14952A973E44000E90C7 /* live-activities-oq-ot */,
 				4ABA14A62A973E48000E90C7 /* live-activities-oq-otTests */,
